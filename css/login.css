@@ -1,0 +1,127 @@
+@font-face {
+  font-family: SF_Regular;
+  src: url(../../fonts/SF-UI-Display-Regular.otf);
+}
+
+@font-face {
+  font-family: SF_Medium;
+  src: url(../../fonts/SF-UI-Display-Medium.otf);
+}
+
+@font-face {
+  font-family: SF_Text_Regular;
+  src: url(../../fonts/SF-UI-Text-Regular.otf);
+}
+
+body {
+  line-height: 1.42857143;
+}
+
+body span {
+  line-height: 0.8;
+}
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  background: url(../imgs/bglogin.jpg) center center;
+  background-size: contain;
+  padding: 60px 0;
+}
+
+.login__wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.login__container {
+  max-width: 360px;
+  padding: 40px 32px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 50, 93, 0.9)), to(rgba(8, 22, 48, 0.9)));
+  background-image: linear-gradient(to bottom, rgba(20, 50, 93, 0.9), rgba(8, 22, 48, 0.9));
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.45);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.45);
+  text-align: center;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.login__container > p {
+  font-family: "SF_Text_Regular";
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  padding: 0 10px;
+}
+
+.login__container__logo > img {
+  width: 209px;
+  margin-bottom: 96px;
+}
+
+.login__container__btn {
+  margin-top: 15px;
+  padding: 0 10px;
+}
+
+.login__container__btn img {
+  width: 100%;
+}
+
+.login__container__closeBtn {
+  opacity: 1;
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #081630;
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.login__container__closeBtn::before, .login__container__closeBtn::after {
+  content: "";
+  display: block;
+  border-left: 2px solid #455570;
+  width: 2px;
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.login__container__closeBtn::before {
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.login__container__closeBtn::after {
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+}
+
+@media (max-width: 480px) {
+  .login {
+    padding: 0;
+  }
+  .login__container {
+    max-width: 425px;
+    width: 100%;
+    height: 100%;
+  }
+  .login__container__closeBtn {
+    top: 0;
+    right: 0;
+  }
+}
+/*# sourceMappingURL=login.css.map */

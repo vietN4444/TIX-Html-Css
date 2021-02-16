@@ -1,0 +1,19 @@
+@font-face {
+  font-family: SF_Regular;
+  src: url(../../fonts/SF-UI-Display-Regular.otf);
+}
+@font-face {
+  font-family: SF_Medium;
+  src: url(../../fonts/SF-UI-Display-Medium.otf);
+}
+@font-face {
+  font-family: SF_Text_Regular;
+  src: url(../../fonts/SF-UI-Text-Regular.otf);
+}
+
+body {
+  line-height: 1.42857143;
+  span {
+    line-height: 0.8;
+  }
+}

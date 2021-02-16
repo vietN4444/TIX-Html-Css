@@ -1,0 +1,34 @@
+.block {
+  display: block !important;
+}
+
+.PEActive {
+  pointer-events: inherit !important;
+}
+
+.menuShow {
+  right: 0 !important;
+}
+
+.opacityShow {
+  opacity: 1 !important;
+}
+
+.translateXback {
+  transform: translateX(0) !important;
+}
+
+.fade {
+  transition: opacity 0.15s linear;
+}
+
+button:focus {
+  outline: none;
+}
+
+.btnCanBuyNow {
+  background: $secondary !important;
+  &:hover {
+    background: #b30000 !important;
+  }
+}

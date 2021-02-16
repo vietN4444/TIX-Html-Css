@@ -1,0 +1,1089 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>CheckOut</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/checkOut.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__wrapper">
+        <img src="../imgs/cancel-arrow.png">
+        <div class="header__container__left">
+          <p class="active">
+            <span>01</span>
+            CHỌN GHẾ & THANH TOÁN
+          </p>
+          <p>
+            <span>02</span>
+            KẾT QUẢ ĐẶT VÉ
+          </p>
+          <p id="choosingChair" class="header__container__left-txtMobile">
+            <span>02.</span>
+            CHỌN GHẾ
+          </p>
+          <p id="methodPay" class="header__container__left-txtMobile">
+            <span>03.</span>
+            THANH TOÁN
+          </p>
+        </div>
+        <div class="header__container__right">
+          <img src="../imgs/avatar.png">
+          <span>Username 1</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="checkout">
+    <!-- CheckoutLeft -->
+    <section class="checkoutLeft">
+      <div class="checkoutLeft__container">
+        <div class="checkoutLeft__blackModal"></div>
+        <div class="checkoutLeft__content">
+          <div class="grid">
+            <div class="checkoutLeft__content-wrapper">
+              <div class="checkoutLeft__content__header">
+                <div class="checkoutLeft__content__header-left">
+                  <img src="../imgs/cinema1.png">
+                  <div class="checkoutLeft__contentCinema">
+                    <p><span>CGV</span> - Crescent Mall</p>
+                    <p><span>- 18:00 - Cinema 3</span></p>
+                  </div>
+                </div>
+                <div class="checkoutLeft__content__header-right">
+                  <span>thời gian giữ ghế</span>
+                  <p id="timeClock">5:00</p>
+                </div>
+              </div>
+              <div class="checkoutLeft__content__body">
+                <div class="checkoutLeft__content__body-container">
+                  <img src="../imgs/screen.png">
+                  <div class="checkoutLeft__screen">
+                    <div class="checkoutLeft__screen__row">
+                      <p>A</p>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                    </div>
+                    <div class="checkoutLeft__screen__row">
+                      <p>B</p>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                    </div>
+                    <div class="checkoutLeft__screen__row">
+                      <p>C</p>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                    </div>
+                    <div class="checkoutLeft__screen__row">
+                      <p>D</p>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--normal">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                    </div>
+                    <div class="checkoutLeft__screen__row">
+                      <p>E</p>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                    </div>
+                    <div class="checkoutLeft__screen__row">
+                      <p>F</p>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                    </div>
+                    <div class="checkoutLeft__screen__row">
+                      <p>G</p>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                    </div>
+                    <div class="checkoutLeft__screen__row">
+                      <p>K</p>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--vip">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                    </div>
+                    <div class="checkoutLeft__screen__row">
+                      <p>L</p>
+                      <span class="seat seat--null">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--deluxe">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                      <span class="seat seat--null">
+                        <span></span>
+                        <p class="seatNumber"></p>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="checkoutLeft__note">
+                <div class="checkoutLeft__note__row">
+                  <div class="checkoutLeft__note__item">
+                    <div class="seat seat--small seat--normal">
+                      <span></span>
+                    </div>
+                    <p>Thường</p>
+                  </div>
+                  <div class="checkoutLeft__note__item">
+                    <div class="seat seat--small seat--vip">
+                      <span></span>
+                    </div>
+                    <p>VIP</p>
+                  </div>
+                  <div class="checkoutLeft__note__item">
+                    <div class="seat seat--small seat--deluxe">
+                      <span></span>
+                    </div>
+                    <p>Dexule</p>
+                  </div>
+                  <div class="checkoutLeft__note__item">
+                    <div class="seat seat--small seat--choosing">
+                      <span></span>
+                    </div>
+                    <p>Ghế đang chọn</p>
+                  </div>
+                  <div class="checkoutLeft__note__item">
+                    <div class="seat seat--small seat--chosen">
+                      <span></span>
+                    </div>
+                    <p>Ghế đã có người chọn</p>
+                  </div>
+                  <div class="checkoutLeft__note__item">
+                    <div class="seat seat--small seat--notchosen">
+                      <span></span>
+                    </div>
+                    <p>Ghế không thể chọn</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CheckoutRight -->
+    <section class="checkoutRight">
+      <div class="checkoutRight__container">
+        <div class="checkoutRight__content">
+          <div class="checkoutRight__content__item checkoutRight__content__price">
+            <p>0 đ</p>
+          </div>
+          <div class="checkoutRight__content__item checkoutRight__content__detail">
+            <div class="checkoutRight__content__detail-name">
+              <span class="nametag">C18</span>
+              <span>Bằng chứng vô hình</span>
+            </div>
+            <p>CGV - Crescent Mall</p>
+            <p>03/08/2020 - 18:00 - Cinema 4</p>
+          </div>
+          <div class="checkoutRight__content__item checkoutRight__content__chair">
+            <span>Ghế</span>
+            <img src="../imgs/chair.png">
+            <span>0 đ</span>
+          </div>
+          <div id="comboLabel" class="checkoutRight__content__item checkoutRight__content__combo">
+            <span>
+              <img src="../imgs/popcorn.png">
+              Chọn combo
+            </span>
+            <span>0 đ</span>
+          </div>
+          <div class="checkoutRight__content__item checkoutRight__content__email checkoutRight__content__input">
+            <input id="inputEmail" type="text" value="username@gmail.com">
+            <label id="labelEmail" for="inputEmail">E-Mail</label>
+          </div>
+          <div class="checkoutRight__content__item checkoutRight__content__phone checkoutRight__content__input">
+            <input id="inputPhone" type="text">
+            <label for="inputPhone">Phone</label>
+          </div>
+          <div class="checkoutRight__content__item checkoutRight__content__voucher checkoutRight__content__input">
+            <input id="inputVoucher" type="text" placeholder="Nhập tại đây...">
+            <label for="inputVoucher">Mã giảm giá</label>
+            <button>Áp dụng</button>
+          </div>
+          <div class="checkoutRight__content__item checkoutRight__content__methodPay">
+            <p>Hình thức thanh toán</p>
+            <div class="checkoutRight__content__methodPay-content">
+              <span>Vui lòng chọn ghế để hiển thị phương thức thanh toán phù hợp.</span>
+              <div class="checkoutRight__content__methodPay-choose methodPay__zalopay">
+                <input id="methodPayZalo" type="radio" name="methodPay" checked>
+                <label for="methodPayZalo" class="labelMethodPay">
+                  <img src="../imgs/zalo.jpg">
+                  <div class="labelMethodPay__detail">
+                    <p>Thanh toán qua ZaloPay</p>
+                    <span>x3 vé CGV 79k/vé cho tất cả khách hàng</span>
+                  </div>
+                </label>
+              </div>
+              <div class="checkoutRight__content__methodPay-choose methodPay__cc">
+                <input id="methodPayCC" type="radio" name="methodPay">
+                <label for="methodPayCC" class="labelMethodPay">
+                  <img src="../imgs/methodPaycc.png">
+                  <div class="labelMethodPay__detail">
+                    <p>Visa, Master, JCB</p>
+                  </div>
+                </label>
+              </div>
+              <div class="checkoutRight__content__methodPay-choose methodPay__atm">
+                <input id="methodPayAtm" type="radio" name="methodPay">
+                <label for="methodPayAtm" class="labelMethodPay">
+                  <img src="../imgs/methodPayAtm.png">
+                  <div class="labelMethodPay__detail">
+                    <p>Thẻ ATM nội địa</p>
+                    <img src="../imgs/arrow.png">
+                  </div>
+                </label>
+                <div class="methodPay__atm__list">
+                  <div class="methodPay__atm__list-logo" id="bank1">
+                    <img src="../imgs/bank1.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank2">
+                    <img src="../imgs/bank2.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank3">
+                    <img src="../imgs/bank3.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank4">
+                    <img src="../imgs/bank4.png">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank5">
+                    <img src="../imgs/bank5.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank6">
+                    <img src="../imgs/bank6.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank7">
+                    <img src="../imgs/bank1.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank8">
+                    <img src="../imgs/bank2.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank9">
+                    <img src="../imgs/bank3.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank10">
+                    <img src="../imgs/bank4.png">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank11">
+                    <img src="../imgs/bank5.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank12">
+                    <img src="../imgs/bank6.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank13">
+                    <img src="../imgs/bank1.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank14">
+                    <img src="../imgs/bank2.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank15">
+                    <img src="../imgs/bank3.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank16">
+                    <img src="../imgs/bank4.png">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank17">
+                    <img src="../imgs/bank5.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank18">
+                    <img src="../imgs/bank6.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank19">
+                    <img src="../imgs/bank1.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank20">
+                    <img src="../imgs/bank2.jpg">
+                  </div>
+                  <div class="methodPay__atm__list-logo" id="bank20">
+                    <img src="../imgs/bank3.jpg">
+                  </div>
+                </div>
+              </div>
+              <div class="checkoutRight__content__methodPay-choose methodPay__payooo">
+                <input id="methodPayoo" type="radio" name="methodPay">
+                <label for="methodPayoo" class="labelMethodPay">
+                  <img src="../imgs/methodPayoo.png">
+                  <div class="labelMethodPay__detail">
+                    <p>Thanh toán tại cửa hàng tiện ích</p>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="checkoutRight__notice">
+            <img src="../imgs/exclamation.png">
+            <span>Vé đã mua không thể đổi hoặc hoàn tiền</span><br />
+            <span>Mã vé sẽ được gửi qua tin nhắn <span>ZMS</span> (tin nhắn Zalo) và <span>Email</span> đã nhập.</span>
+          </div>
+        </div>
+        <div class="checkoutRight__btn">
+          <button>Đặt Vé</button>
+        </div>
+      </div>
+    </section>
+    <div class="checkout__btnGroup">
+      <div id="txtSeat" class="checkout__btnGroup-item checkout__btnGroup__txt">
+        <p></p>
+      </div>
+      <div id="btnContinue" class="checkout__btnGroup-item checkout__btnGroup__btnContinue">TIẾP TỤC</div>
+      <div id="txtPriceCombo" class="checkout__btnGroup-item checkout__btnGroup__txt checkout__btnGroup__txt-combo">
+        <p></p>
+      </div>
+      <div id="btnContinueCombo" class="checkout__btnGroup-item checkout__btnGroup__btnContinue">TIẾP TỤC
+      </div>
+      <div id="btnContinueSubmit" class="checkout__btnGroup-item checkout__btnGroup__btnContinue">TIẾP TỤC
+      </div>
+    </div>
+  </section>
+
+  <section class="modalCheckoutCombo">
+    <div class="modal" id="modalCombo"></div>
+    <div class="modalCheckoutCombo__container">
+      <div class="modalCheckoutCombo__content">
+        <div class="modalCheckoutCombo__content__headerTitle">
+          <p>COMBO</p>
+        </div>
+        <div class="modalCheckoutCombo__content__item">
+          <div class="col-sm-2 col-3 modalCheckoutCombo__content__item-logo">
+            <img src="../imgs/combo1.png">
+          </div>
+          <div class="col-sm-7 col-5 modalCheckoutCombo__content__item-detail">
+            <div class="checkoutCombo__name" data-toggle="collapse" data-target="#combo1" aria-controls="combo1">
+              <img src="../imgs/information.png">
+              MY COMBO MR 2020 (ONLINE)
+            </div>
+            <div class="collapse collapseTxt" id="combo1">
+              <p>1 bắp vừa + 1 nước siêu lớn. Nhận trong ngày xem phim*
+                ** Miễn phí đổi vị bắp Dâu, Phô mai và Caramel **</p>
+            </div>
+            <p>79.000 đ</p>
+          </div>
+          <div class="col-sm-3 col-4 modalCheckoutCombo__content__item-number">
+            <button id="btnDiminish">-</button>
+            <span>0</span>
+            <button id="btnAdd" class="">+</button>
+          </div>
+        </div>
+        <div class="modalCheckoutCombo__content__item">
+          <div class="col-sm-2 col-3 modalCheckoutCombo__content__item-logo">
+            <img src="../imgs/combo2.png">
+          </div>
+          <div class="col-sm-7 col-5 modalCheckoutCombo__content__item-detail">
+            <div class="checkoutCombo__name" data-toggle="collapse" data-target="#combo2" aria-controls="combo2">
+              <img src="../imgs/information.png">
+              MY SNACK COMBO 2020 (ONLINE)
+            </div>
+            <div class="collapse collapseTxt" id="combo2">
+              <p>1 Bắp Vừa + 1 Nước Siêu Lớn + 1 Snack. Nhận trong ngày xem phim.
+                ** Miễn phí đổi vị bắp Dâu, Phô mai và Caramel **</p>
+            </div>
+            <p>89.000 đ</p>
+          </div>
+          <div class="col-sm-3 col-4 modalCheckoutCombo__content__item-number">
+            <button id="btnDiminish">-</button>
+            <span>0</span>
+            <button id="btnAdd" class="">+</button>
+          </div>
+        </div>
+        <div class="modalCheckoutCombo__content__item">
+          <div class="col-sm-2 col-3 modalCheckoutCombo__content__item-logo">
+            <img src="../imgs/combo3.png">
+          </div>
+          <div class="col-sm-7 col-5 modalCheckoutCombo__content__item-detail">
+            <div class="checkoutCombo__name" data-toggle="collapse" data-target="#combo3" aria-controls="combo3">
+              <img src="../imgs/information.png">
+              CGV COMBO MR 2020 (ONLINE)
+            </div>
+            <div class="collapse collapseTxt" id="combo3">
+              <p>1 Bắp lớn + 2 nước lớn. Nhận trong ngày xem phim.
+                ** Miễn phí đổi vị bắp Dâu, Phô mai và Caramel **</p>
+            </div>
+            <p>99.000 đ</p>
+          </div>
+          <div class="col-sm-3 col-4 modalCheckoutCombo__content__item-number">
+            <button id="btnDiminish">-</button>
+            <span>0</span>
+            <button id="btnAdd" class="">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="modalCheckoutCombo__content">
+        <div class="modalCheckoutCombo__content__headerTitle">
+          <p>SPECIAL COMBO</p>
+        </div>
+        <div class="modalCheckoutCombo__content__item">
+          <div class="col-sm-2 col-3 modalCheckoutCombo__content__item-logo">
+            <img src="../imgs/specialCombo1.png">
+          </div>
+          <div class="col-sm-7 col-5 modalCheckoutCombo__content__item-detail">
+            <div class="checkoutCombo__name" data-toggle="collapse" data-target="#specialCombo1"
+              aria-controls="specialCombo1">
+              <img src="../imgs/information.png">
+              NV_HELLO KITTY CITY CUP (ONLINE)
+            </div>
+            <div class="collapse collapseTxt" id="specialCombo1">
+              <p>1 Ly nước nhân vật Hello Kitty ( ly có nước)
+                ** Mua thêm 1 bắp ngọt lớn chỉ với 29,000 tại rạp **
+                ***Thiết kế ly phụ thuộc vào số lượng hàng tại từng rạp khác nhau***
+                *** Nhận trong ngày xem phim ***
+              </p>
+            </div>
+            <p>169.000 đ</p>
+          </div>
+          <div class="col-sm-3 col-4 modalCheckoutCombo__content__item-number">
+            <button id="btnDiminish">-</button>
+            <span>0</span>
+            <button id="btnAdd" class="">+</button>
+          </div>
+        </div>
+        <div class="modalCheckoutCombo__content__item">
+          <div class="col-sm-2 col-3 modalCheckoutCombo__content__item-logo">
+            <img src="../imgs/specialCombo2.png">
+          </div>
+          <div class="col-sm-7 col-5 modalCheckoutCombo__content__item-detail">
+            <div class="checkoutCombo__name" data-toggle="collapse" data-target="#specialCombo2"
+              aria-controls="specialCombo2">
+              <img src="../imgs/information.png">
+              SHINCHAN COMBO (ONLINE)
+            </div>
+            <div class="collapse collapseTxt" id="specialCombo2">
+              <p>1 ly Shin-chan kèm nước + 1 bắp ngọt lớn
+                **Miễn phí đổi vị bắp Phô mai, Caramel và Dâu**
+                ***Nhận trong ngày xem phim***</p>
+            </div>
+            <p>179.000 đ</p>
+          </div>
+          <div class="col-sm-3 col-4 modalCheckoutCombo__content__item-number">
+            <button id="btnDiminish">-</button>
+            <span>0</span>
+            <button id="btnAdd" class="">+</button>
+          </div>
+        </div>
+        <div class="modalCheckoutCombo__content__item">
+          <div class="col-sm-2 col-3 modalCheckoutCombo__content__item-logo">
+            <img src="../imgs/specialCombo3.png">
+          </div>
+          <div class="col-sm-7 col-5 modalCheckoutCombo__content__item-detail">
+            <div class="checkoutCombo__name" data-toggle="collapse" data-target="#specialCombo3"
+              aria-controls="specialCombo3">
+              <img src="../imgs/information.png">
+              NV_MOUSE MY COMBO (ONLINE)
+            </div>
+            <div class="collapse collapseTxt" id="specialCombo3">
+              <p>1 ly thiết kế Chuột 4 mùa 2020, 1 nước siêu lớn, 1 bắp ngọt lớn
+                **Miễn phí đổi vị bắp Phô mai, Caramel và Chocolate**
+                ***Nhận trong ngày xem phim***</p>
+            </div>
+            <p>179.000 đ</p>
+          </div>
+          <div class="col-sm-3 col-4 modalCheckoutCombo__content__item-number">
+            <button id="btnDiminish">-</button>
+            <span>0</span>
+            <button id="btnAdd" class="">+</button>
+          </div>
+        </div>
+        <div class="modalCheckoutCombo__content__item">
+          <div class="col-sm-2 col-3 modalCheckoutCombo__content__item-logo">
+            <img src="../imgs/specialCombo4.png">
+          </div>
+          <div class="col-sm-7 col-5 modalCheckoutCombo__content__item-detail">
+            <div class="checkoutCombo__name" data-toggle="collapse" data-target="#specialCombo4"
+              aria-controls="specialCombo4">
+              <img src="../imgs/information.png">
+              SKY ITEM (ONLINE)
+            </div>
+            <div class="collapse collapseTxt" id="specialCombo4">
+              <p>01 vòng tay cổ vũ + 01 nước
+                *Mua thêm 01 bắp lớn chỉ với 29K tại rạp*
+                *Đổi sang Sky Set phụ thu 60K tại rạp
+                ***Nhận trong ngày xem phim***
+              </p>
+            </div>
+            <p>199.000 đ</p>
+          </div>
+          <div class="col-sm-3 col-4 modalCheckoutCombo__content__item-number">
+            <button id="btnDiminish">-</button>
+            <span>0</span>
+            <button id="btnAdd" class="">+</button>
+          </div>
+        </div>
+        <div class="modalCheckoutCombo__content__item">
+          <div class="col-sm-2 col-3 modalCheckoutCombo__content__item-logo">
+            <img src="../imgs/combo2.png">
+          </div>
+          <div class="col-sm-7 col-5 modalCheckoutCombo__content__item-detail">
+            <div class="checkoutCombo__name" data-toggle="collapse" data-target="#specialCombo5"
+              aria-controls="specialCombo5">
+              <img src="../imgs/information.png">
+              NV_CHEESE RAT MY COMBO (ONLINE)
+            </div>
+            <div class="collapse collapseTxt" id="specialCombo5">
+              <p>1 ly thiết kế Chuột phô mai 2020, 1 bắp ngọt lớn
+                **Miễn phí đổi vị bắp Phô mai, Caramel và Chocolate**
+                ***Nhận trong ngày xem phim***</p>
+            </div>
+            <p>229.000 đ</p>
+          </div>
+          <div class="col-sm-3 col-4 modalCheckoutCombo__content__item-number">
+            <button id="btnDiminish">-</button>
+            <span>0</span>
+            <button id="btnAdd" class="">+</button>
+          </div>
+        </div>
+        <div class="modalCheckoutCombo__content__item">
+          <div class="col-sm-2 col-3 modalCheckoutCombo__content__item-logo">
+            <img src="../imgs/specialCombo1.png">
+          </div>
+          <div class="col-sm-7 col-5 modalCheckoutCombo__content__item-detail">
+            <div class="checkoutCombo__name" data-toggle="collapse" data-target="#specialCombo6"
+              aria-controls="specialCombo6">
+              <img src="../imgs/information.png">
+              NV_JUNGLE BROWN COMBO (ONLINE)
+            </div>
+            <div class="collapse collapseTxt" id="specialCombo6">
+              <p>1 bình Jungle Brown + 1 nước + 1 bắp
+                **Miễn phí đổi vị bắp Dâu, Phô mai, Caramel và Chocolate**
+                ***Nhận trong ngày xem phim***</p>
+            </div>
+            <p>239.000 đ</p>
+          </div>
+          <div class="col-sm-3 col-4 modalCheckoutCombo__content__item-number">
+            <button id="btnDiminish">-</button>
+            <span>0</span>
+            <button id="btnAdd" class="">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="modalCheckoutCombo__content">
+        <div class="modalCheckoutCombo__content__headerTitle">
+          <p>CON MKT</p>
+        </div>
+        <div class="modalCheckoutCombo__content__item">
+          <div class="col-sm-2 col-3 modalCheckoutCombo__content__item-logo">
+            <img src="../imgs/conmkt1.png">
+          </div>
+          <div class="col-sm-7 col-5 modalCheckoutCombo__content__item-detail">
+            <div class="checkoutCombo__name" data-toggle="collapse" data-target="#combo1" aria-controls="combo1">
+              <img src="../imgs/information.png">
+              FAMILY COMBO (ONLINE)
+            </div>
+            <div class="collapse collapseTxt" id="combo1">
+              <p>TẶNG VOUCHER BUFFET KICHI KICHI
+                Combo bao gồm: 1 lon trà chanh sả + 2 nước 32oz + 1 bắp mix + 2 vòng Justice League
+                **Nhận trong ngày xem phim**</p>
+            </div>
+            <p>249.000 đ</p>
+          </div>
+          <div class="col-sm-3 col-4 modalCheckoutCombo__content__item-number">
+            <button id="btnDiminish">-</button>
+            <span>0</span>
+            <button id="btnAdd" class="">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- MyJS -->
+  <script src="../controller/checkOut.js"></script>
+</body>
+
+</html>

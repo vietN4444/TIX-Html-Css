@@ -1,0 +1,14 @@
+@mixin Text($font, $colorT, $fs, $fw) {
+  font-family: "#{$font}";
+  color: $colorT;
+  font-size: $fs;
+  font-weight: $fw;
+}
+
+@mixin Button($outline, $border, $radius, $background, $py, $px) {
+  outline: $outline;
+  border: $border;
+  border-radius: $radius;
+  background: $background;
+  padding: $py $px;
+}

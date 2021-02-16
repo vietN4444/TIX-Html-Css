@@ -1,0 +1,20 @@
+// Navs Header
+.navs__header {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: spacing(1.4);
+  &__link {
+    @include Text(SF_Medium, $textPrimary, $h4, $fwRegular);
+    text-decoration: none;
+    padding: 0 spacing(0.8);
+    margin: 0 spacing(1.2);
+    transition: all 0.3s;
+    &:hover {
+      text-decoration: none;
+      @include Text(SF_Medium, $textPrimary, $h4A, $fwRegular);
+    }
+    &.active {
+      @include Text(SF_Medium, $textSecondary, $h4A, $fwRegular);
+    }
+  }
+}

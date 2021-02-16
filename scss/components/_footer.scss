@@ -1,0 +1,230 @@
+.footer {
+  background-color: $dark;
+  padding: spacing(2) 0;
+  color: $textLightGrey;
+  &__container {
+    &__top {
+      padding-bottom: spacing(2);
+      margin-bottom: spacing(2);
+      border-bottom: 1px solid $textDarkLight;
+    }
+    &__bottom {
+      margin: 0;
+    }
+  }
+  &__top__content {
+    > p {
+      width: 100%;
+    }
+    &-txt {
+      width: 50%;
+      padding-right: spacing(1.5);
+      float: left;
+      &:last-child {
+        &::before {
+          content: "";
+          display: block;
+          clear: both;
+        }
+      }
+      > a {
+        @include Text(SF_Text_Regular, $textLightGrey, $body2, $fwBold);
+        white-space: nowrap;
+        display: block;
+        transition: all 0.2s;
+        line-height: 2.3;
+        text-decoration: none;
+        &:hover {
+          color: $textWhite;
+        }
+      }
+    }
+    &-logo {
+      margin-bottom: spacing(1.5);
+      &:last-child {
+        margin: 0;
+      }
+      > a {
+        margin-right: spacing(1.5);
+        text-decoration: none;
+        > img {
+          background-color: $primary;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+        #Megags {
+          background-color: transparent;
+        }
+      }
+    }
+    &-social {
+      float: left;
+      text-align: center;
+      &:last-child {
+        &::before {
+          content: "";
+          display: block;
+          clear: both;
+        }
+      }
+      > a {
+        > img {
+          width: auto;
+          height: 30px;
+          margin: spacing(0.5);
+        }
+      }
+    }
+  }
+  &__bottom__container {
+    display: flex;
+    padding: 0;
+    &-logo {
+      > img {
+        width: 80px;
+        border-radius: 8px;
+        margin-right: spacing(1.5);
+      }
+    }
+    &__content {
+      h6.footer__title {
+        font-size: $body2;
+        margin: 0;
+        line-height: 1.8;
+      }
+      > p {
+        @include Text(SF_Text_Regular, $textLightGrey, $body2, $fwRegular);
+        margin: 0;
+        line-height: 1.8;
+        > a {
+          color: $textSecondary;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  &__bottom__logo {
+    padding: 0;
+    > a {
+      margin-left: auto;
+      float: right;
+      > img {
+        width: 130px;
+        display: block;
+      }
+    }
+  }
+  &__title {
+    margin-bottom: spacing(1);
+    @include Text(SF_Text_Regular, $textWhite, $body4, $fwRegular);
+  }
+  @media (max-width: 992px) {
+    &__bottom__container {
+      justify-content: space-between;
+      &__content {
+        text-align: center;
+      }
+    }
+    #footerSocialLeft,
+    #footerTxtLeft,
+    &__title,
+    #footerTopLogo {
+      display: none;
+    }
+    #footerTopSocial {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #footerTxtRight {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      > a {
+        margin-right: 14px;
+      }
+    }
+    #footerTopTxt {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .row {
+      margin: 0;
+    }
+    .footer__bottom__container,
+    .footer__bottom__logo {
+      padding: 0 10px;
+    }
+  }
+  @media (max-width: 940px) {
+    .grid {
+      width: 100%;
+    }
+    #footerSocialRight {
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+  }
+  @media (max-width: 840px) {
+    #footerTxtRight {
+      flex-direction: column;
+      > a {
+        text-align: center;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    #footerTxtLeft {
+      width: 100%;
+      justify-content: center;
+      display: flex;
+      > a {
+        text-align: center;
+        margin-right: 14px;
+      }
+    }
+    &__container__top,
+    &__container__bottom,
+    &__bottom__container {
+      flex-direction: column;
+      align-items: center;
+    }
+    #footerTxtRight {
+      flex-direction: row;
+    }
+    &__bottom__container-logo {
+      > img {
+        margin: 20px 0;
+      }
+    }
+    h6.footer__title {
+      display: block;
+    }
+    &__bottom__container {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    &__bottom__logo {
+      flex: 0 0 100%;
+      max-width: 100%;
+      display: flex;
+      > a {
+        margin: 0 auto;
+      }
+    }
+    .footer__top__content {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 480px) {
+    padding-bottom: 70px;
+  }
+}
